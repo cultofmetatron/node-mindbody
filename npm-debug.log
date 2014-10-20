@@ -1,0 +1,61 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/Users/cultofmetatron/.nvm/v0.10.31/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'moucha',
+1 verbose cli   '--save-dev' ]
+2 info using npm@2.0.0
+3 info using node@v0.10.31
+4 warn package.json mindbody-node@0.0.1 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'moucha', null ]
+7 verbose cache add spec="moucha" args=["moucha",null]
+8 verbose parsed spec { raw: 'moucha',
+8 verbose parsed spec   scope: null,
+8 verbose parsed spec   name: 'moucha',
+8 verbose parsed spec   rawSpec: '',
+8 verbose parsed spec   spec: '*',
+8 verbose parsed spec   type: 'range' }
+9 verbose parsed spec { raw: 'moucha',
+9 verbose parsed spec   scope: null,
+9 verbose parsed spec   name: 'moucha',
+9 verbose parsed spec   rawSpec: '',
+9 verbose parsed spec   spec: '*',
+9 verbose parsed spec   type: 'range' }
+10 verbose addNamed [ 'moucha', '*' ]
+11 verbose addNamed [ null, '*' ]
+12 silly lockFile 0aa78feb-moucha moucha@*
+13 verbose lock moucha@* /Users/cultofmetatron/.npm/0aa78feb-moucha.lock
+14 silly addNameRange { name: 'moucha', range: '*', hasData: false }
+15 verbose mapToRegistry name moucha
+16 verbose mapToRegistry uri https://registry.npmjs.org/moucha
+17 silly lockFile 0aa78feb-moucha moucha@*
+18 silly lockFile 0aa78feb-moucha moucha@*
+19 verbose stack Error: 404 Not Found: moucha
+19 verbose stack     at RegClient.<anonymous> (/Users/cultofmetatron/.nvm/v0.10.31/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:258:14)
+19 verbose stack     at Request._callback (/Users/cultofmetatron/.nvm/v0.10.31/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:197:65)
+19 verbose stack     at Request.self.callback (/Users/cultofmetatron/.nvm/v0.10.31/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/request/request.js:237:22)
+19 verbose stack     at Request.emit (events.js:98:17)
+19 verbose stack     at Request.<anonymous> (/Users/cultofmetatron/.nvm/v0.10.31/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/request/request.js:1146:14)
+19 verbose stack     at Request.emit (events.js:117:20)
+19 verbose stack     at IncomingMessage.<anonymous> (/Users/cultofmetatron/.nvm/v0.10.31/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/request/request.js:1097:12)
+19 verbose stack     at IncomingMessage.emit (events.js:117:20)
+19 verbose stack     at _stream_readable.js:943:16
+19 verbose stack     at process._tickCallback (node.js:419:13)
+20 verbose statusCode 404
+21 verbose pkgid moucha
+22 verbose cwd /Users/cultofmetatron/projects/mindbody-node
+23 error Darwin 13.4.0
+24 error argv "node" "/Users/cultofmetatron/.nvm/v0.10.31/bin/npm" "install" "moucha" "--save-dev"
+25 error node v0.10.31
+26 error npm  v2.0.0
+27 error code E404
+28 error 404 Not Found: moucha
+28 error 404
+28 error 404 'moucha' is not in the npm registry.
+28 error 404 You should bug the author to publish it (or use the name yourself!)
+28 error 404 It was specified as a dependency of 'mindbody-node'
+28 error 404
+28 error 404 Note that you can also install from a
+28 error 404 tarball, folder, http url, or git url.
+29 verbose exit [ 1, true ]

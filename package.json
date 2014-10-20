@@ -16,5 +16,10 @@
     "bluebird": "^2.3.6",
     "lodash": "^2.4.1",
     "soap": "^0.5.1"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.5",
+    "should": "^4.1.0",
+    "sinon": "^1.10.3"
   }
 }
