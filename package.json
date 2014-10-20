@@ -11,5 +11,10 @@
     "node"
   ],
   "author": "Peter de Croos",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^2.3.6",
+    "lodash": "^2.4.1",
+    "soap": "^0.5.1"
+  }
 }
